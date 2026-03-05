@@ -94,7 +94,7 @@ const AnimatedCounter = ({ value }: { value: string }) => {
     return () => clearInterval(timer);
   }, [num]);
 
-  return <span className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-blue-500">{count}%</span>;
+  return <span className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-liner-to-r from-teal-400 to-blue-500">{count}%</span>;
 };
 
 export default function Portfolio() {
